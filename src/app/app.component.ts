@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { fabonacciSeries } from 'iitech';
+import { fabonacciSeries } from 'npmpoc_approach2';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({

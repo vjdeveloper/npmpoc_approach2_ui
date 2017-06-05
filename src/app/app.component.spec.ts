@@ -1,5 +1,5 @@
 import { TestBed, async } from '@angular/core/testing';
-import { fabonacciSeries } from 'iitech';
+import { fabonacciSeries } from 'npmpoc_approach2';
 
 describe('AppComponent', () => {
   it(`should return fabonacci series`, async(() => {
