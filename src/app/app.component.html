@@ -1,0 +1,13 @@
+<h1>
+  Fabonacci Test
+</h1>
+<form [formGroup]="myForm" (ngSubmit)="calculateFabonacci(myForm.value.number)">
+  <div class="form-group">
+    <label for="number">Enter Number</label>
+    <input formControlName="number" type="number" id="number" class="form-control">
+  </div>
+  <p>{{result}}</p>
+  <div class="form-group">
+    <button type="submit" [disabled]="!myForm.valid" class="btn btn-primary ">Get Fabonacci</button>
+  </div>
+</form>
